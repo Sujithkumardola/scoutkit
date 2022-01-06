@@ -10,7 +10,6 @@ def whois_search(domain):
   print(Fore.BLUE+"Updates at",":",Fore.GREEN+str(result.upadated_date))
   print(Fore.BLUE+"Created at",":",Fore.GREEN+str(result.created_date))
   print(Fore.BLUE+"Expires at",":",Fore.GREEN+str(result.expiry_date))
-import requests
 from threading import Thread
 from queue import Queue
 q = Queue()
