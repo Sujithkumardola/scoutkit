@@ -4,8 +4,8 @@ scoutkit is a pytyon based CLI application to extract useful data about websites
 # Installation
 Requires Python 3.x 
 
-for more info on installing python see:
- https://www.python.org/downloads
+for more info on installing python visit:
+https://www.python.org/downloads
 
 Install required Modules using
 
