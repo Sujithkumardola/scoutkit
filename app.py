@@ -43,7 +43,6 @@ if opt<=6 and opt!=0:
   elif opt==4:
     ip=input(f.GREEN+"Enter IP: ")
     func.geo(ip)
-    pass
   elif opt==5:
     ip=input(f.GREEN+"Enter IP: ")
     func.isvpn(ip)
