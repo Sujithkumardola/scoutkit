@@ -28,7 +28,7 @@ __________________________________________________________________________
 ''')
 try:
   opt=int(input(f.GREEN+"Enter your option: "))
-except:
+except ValueError:
   opt=0
 if opt<=6 and opt!=0:
   if opt==1:
