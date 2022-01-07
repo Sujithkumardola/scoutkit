@@ -22,7 +22,7 @@ def scan_subdomains(domain):
         url = f"http://{subdomain}.{domain}"
         try:
             requests.get(url)
-        except:
+        except requests.ConnectionError:
             pass
         else:
             print(Fore.CYAN+"[+] Discovered subdomain:", url)
