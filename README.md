@@ -3,10 +3,10 @@
 ![version](https://img.shields.io/badge/version-1.0.0-green)
 ![GitHub issues](https://img.shields.io/github/issues/sujithkumardola/scoutkit)
 ![GitHub language count](https://img.shields.io/github/languages/count/sujithkumardola/scoutkit)
-# scoutkit
+# Scoutkit
 scoutkit is a pytyon based CLI application to extract useful data about websites.
 
-# Installation
+## Installation
 Requires Python 3.x 
 
 for more info on installing python visit:
@@ -16,7 +16,7 @@ Install required Modules using
 
 `pip install requirements.txt`
 
-# usage
+## usage
 
 `python app.py`
 
