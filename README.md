@@ -20,5 +20,3 @@ Install required Modules using
 
 `python app.py`
 
-and choose your option from the menu.
-
