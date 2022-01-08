@@ -17,6 +17,5 @@ Install required Modules using
 `pip install requirements.txt`
 
 ## usage
-
 `python app.py`
 
