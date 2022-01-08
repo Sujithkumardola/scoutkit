@@ -3,18 +3,21 @@
 ![version](https://img.shields.io/badge/version-1.0.0-green)
 ![GitHub issues](https://img.shields.io/github/issues/sujithkumardola/scoutkit)
 ![GitHub language count](https://img.shields.io/github/languages/count/sujithkumardola/scoutkit)
-# Scoutkit
-scoutkit is a pytyon based CLI application to extract useful data about websites.
 
-## Installation
+# Scoutkit
+
+Scoutkit is a pytyon based CLI application to extract useful data about websites.
+
+# Installation
+
 Requires Python 3.x 
 
-for more info on installing python visit:
-https://www.python.org/downloads
+Install required modules using
 
-Install required Modules using
+`pip install -r requirements.txt`
 
-`pip install requirements.txt`
-## Usage
+And update your `config.json` file with your [vpnapi.io](https://vpnapi.io) API key.
+
+# Usage
+
 `python app.py`
-
