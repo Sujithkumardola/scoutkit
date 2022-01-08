@@ -8,7 +8,7 @@
 
 Scoutkit is a pytyon based CLI application to extract useful data about websites.
 
-# Installation
+## Installation
 
 Requires Python 3.x 
 
@@ -18,6 +18,6 @@ Install required modules using
 
 And update your `config.json` file with your [vpnapi.io](https://vpnapi.io) API key.
 
-# Usage
+## Usage
 
 `python app.py`
