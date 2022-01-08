@@ -70,7 +70,7 @@ def isvpn(ip):
   try:
     for keys,values in resp["security"].items():
       print(Fore.CYAN+keys,":",values)
-  except:
+  except KeyError:
     print(Fore.RED+"Invalid IP...")
 def ns(domain):
   result=whois.whois(domain)
