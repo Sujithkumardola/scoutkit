@@ -38,7 +38,7 @@ def scanner(domain, n_threads, subdomains):
     for subdomain in subdomains:
         q.put(subdomain)
 
-    for t in range(n_threads):
+    for _ in range(n_threads):
         # start all threads
         worker = Thread(target=scan_subdomains, args=(domain))
         # daemon thread means a thread that will end when the main thread ends
