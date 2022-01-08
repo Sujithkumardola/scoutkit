@@ -15,7 +15,6 @@ https://www.python.org/downloads
 Install required Modules using
 
 `pip install requirements.txt`
-
-## usage
+## Usage
 `python app.py`
 
